@@ -1,13 +1,9 @@
 @import "./global.css";
-.user__github,
-.user__mentor {
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
-}
-
 .user__github:hover,
+.user__instagram:hover,
 .user__linkedin:hover,
-.user__mentor:hover {
+.user__mentor:hover,
+.user__twitter:hover {
   background-color: #c4f82a;
   color: #333;
 }
@@ -48,10 +44,11 @@ body {
 }
 
 .user__github,
-.user__linkedin,
 .user__mentor {
   background-color: #333;
   border-radius: 8px;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 
 .user__name {
@@ -106,8 +103,28 @@ body {
   transition: 0.4s;
 }
 
+.user__linkedin,
+.user__twitter {
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  background-color: #333;
+  border-radius: 8px;
+}
+
 .user__linkedin {
   padding: 12px 122.5px;
+  transition: 0.4s;
+}
+
+.user__twitter {
+  padding: 12px 127px;
+  transition: 0.4s;
+}
+
+.user__instagram {
+  background-color: #333;
+  padding: 12px 117px;
+  border-radius: 8px;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
