@@ -1,1 +1,124 @@
 @import "./global.css";
+body {
+  background-color: #010101;
+}
+
+.card {
+  margin: auto;
+  max-width: 384px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  padding: 4rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+}
+
+.user__avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+.user__name {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  font-weight: 600;
+  padding: 2.4rem 0 0.5rem 0;
+}
+
+.user__country {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #c4f82a;
+  font-weight: 700;
+}
+
+.user__profession {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #ffff;
+  font-weight: 400;
+  padding: 2.4rem 0;
+}
+
+.user__social-links {
+  display: grid;
+  justify-items: center;
+  grid-template-areas: "user__github" "user__mentor" "user__linkedin" "user__twitter" "user__instagram";
+  grid-template-columns: 304px;
+  gap: 1.6rem;
+}
+
+.user__social-links a {
+  color: #ffff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.user__github {
+  background-color: #333333;
+  padding: 12px 127.5px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.user__github:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
+
+.user__mentor {
+  background-color: #333333;
+  padding: 12px 94.5px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.user__mentor:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
+
+.user__linkedin {
+  background-color: #333333;
+  padding: 12px 122.5px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.user__linkedin:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
+
+.user__twitter {
+  background-color: #333333;
+  padding: 12px 127px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.user__twitter:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
+
+.user__instagram {
+  background-color: #333333;
+  padding: 12px 117px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.user__instagram:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
